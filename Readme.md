@@ -2,13 +2,15 @@ You're new on the job and have been given ownership of the company's jukebox app
 
 Given the following spec, dive into the code and fix one problem at a time until the program's output matches the spec and there are no errors!
 
+__Remember to read your error messages carefully, check lines, and use pry or irb to check your assumptions!__
+
 When running for the first time, output should be: 
-`
+```
 Welcome to Ruby Console Jukebox!  
 Enter a command to continue. Type 'help' for a list of commands.
-`
+```
 user enters `help`:
-`
+```
 Never worked a jukebox, eh? Pretty standard. Available commands are:  
 'help' - shows this menu  
 'list' - lists the whole song library  
@@ -16,9 +18,10 @@ or you can enter an artist's name to show that artist's songs
 or you can enter a song title to play that song!  
   
 Enter a command to continue. Type 'help' for a list of commands.  
-`
-on list:
+```
 
+user enters `list`:
+```
 ---------------
 U2:
 ---------------
@@ -46,10 +49,13 @@ Sports:
 	I Want a New Drug
 	If This is It
 	Heart of Rock and Roll
+	
+Enter a command to continue. Type 'help' for a list of commands.
 
+```
 
-on U2:
-
+user enters `U2` OR user enters `u2`:
+```
 ---------------
 U2:
 ---------------
@@ -60,28 +66,18 @@ The Joshua Tree:
 Zooropa:
 	Numb
 Enter a command to continue. Type 'help' for a list of commands.
+```
 
-on u2
-
----------------
-U2:
----------------
-The Joshua Tree:
-	With or Without You
-	Still Haven't Found What I'm Looking For
-	Bullet the Blue Sky
-Zooropa:
-	Numb
-Enter a command to continue. Type 'help' for a list of commands.
-
-on numb
-
+user enters `numb` or `Numb` or `NUMB`
+```
 Now Playing: U2: Zooropa - Numb
 
 Enter a command to continue. Type 'help' for a list of commands.
+```
 
-on zzyz
-
+user enters `zzyz`:
+```
 I did not understand 'zzyz'!
 
 Enter a command to continue. Type 'help' for a list of commands.
+```
