@@ -4,7 +4,11 @@ Given the following spec, dive into the code and fix one problem at a time until
 
 to run the program, type `ruby runner.rb`
 
-__Remember to read your error messages carefully, check lines, and use pry or irb to check your assumptions!__
+__Remember!__
+1. read your error messages carefully, check error messages and line numbers
+2. use pry or irb to check your assumptions!
+3. not all bugs will throw errors, check the output against the spec!
+4. your program is only as good as the data you feed it!
 
 When running for the first time, output should be: 
 ```
