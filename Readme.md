@@ -4,7 +4,7 @@ Given the following spec, dive into the code and fix one problem at a time until
 
 to run the program, type `ruby runner.rb`
 
-__Remember!__
+__Remember!__  
 1. read your error messages carefully, check error messages and line numbers
 2. use pry or irb to check your assumptions!
 3. not all bugs will throw errors, check the output against the spec!
