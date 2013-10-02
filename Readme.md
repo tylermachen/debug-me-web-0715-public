@@ -2,6 +2,8 @@ You're new on the job and have been given ownership of the company's jukebox app
 
 Given the following spec, dive into the code and fix one problem at a time until the program's output matches the spec and there are no errors!
 
+to run the program, type `ruby runner.rb`
+
 __Remember to read your error messages carefully, check lines, and use pry or irb to check your assumptions!__
 
 When running for the first time, output should be: 
