@@ -4,19 +4,19 @@ Given the following spec, dive into the code and fix one problem at a time until
 
 When running for the first time, output should be: 
 `
-Welcome to Ruby Console Jukebox!
+Welcome to Ruby Console Jukebox!  
 Enter a command to continue. Type 'help' for a list of commands.
 `
-on help:
-
-Never worked a jukebox, eh? Pretty standard. Available commands are:
-'help' - shows this menu
-'list' - lists the whole song library
-or you can enter an artist's name to show that artist's songs
-or you can enter a song title to play that song!
-
-Enter a command to continue. Type 'help' for a list of commands.
-
+user enters `help`:
+`
+Never worked a jukebox, eh? Pretty standard. Available commands are:  
+'help' - shows this menu  
+'list' - lists the whole song library  
+or you can enter an artist's name to show that artist's songs  
+or you can enter a song title to play that song!  
+  
+Enter a command to continue. Type 'help' for a list of commands.  
+`
 on list:
 
 ---------------
