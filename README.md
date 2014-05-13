@@ -1,6 +1,7 @@
 ---
   tags: debugging
   languages: ruby
+  resources: 1
 ---
 
 You're new on the job and have been given ownership of the company's jukebox application. Unfortunately, before you can even begin adding cool new features to make it much, much more awesome than it is now, you fire it up and it won't even run! Now you have to go through the code and squash all the bugs (there's a bunch!).
@@ -92,3 +93,6 @@ I did not understand 'zzyz'!
 
 Enter a command to continue. Type 'help' for a list of commands.
 ```
+
+## Resources
+* [The Bastards Book of Ruby](http://ruby.bastardsbook.com/) - [Exception and Error Handling](http://ruby.bastardsbook.com/chapters/exception-handling/)
