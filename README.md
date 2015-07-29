@@ -1,8 +1,4 @@
----
-  tags: debugging, bonus
-  languages: ruby
-  resources: 1
----
+
 
 # Debug the Company Jukebox
 
@@ -39,9 +35,9 @@ Enter a command to continue. Type 'help' for a list of commands.
 
 user enters `list`:
 ```
----------------
+---------
 U2:
----------------
+---------
 The Joshua Tree:
   With or Without You
 	Still Haven't Found What I'm Looking For
@@ -49,9 +45,9 @@ The Joshua Tree:
 Zooropa:
 	Numb
 
----------------
+---------
 Talking Heads:
----------------
+---------
 Fear of Music:
 	Life During Wartime
 	Heaven
@@ -59,9 +55,9 @@ Speaking in Tongues:
 	This Must Be the Place (Naive Melody)
 	Burning Down the House
 
----------------
+---------
 Huey Lewis and the News:
----------------
+---------
 Sports:
 	I Want a New Drug
 	If This is It
@@ -73,9 +69,9 @@ Enter a command to continue. Type 'help' for a list of commands.
 
 user enters `U2` OR user enters `u2`:
 ```
----------------
+---------
 U2:
----------------
+---------
 The Joshua Tree:
 	With or Without You
 	Still Haven't Found What I'm Looking For
