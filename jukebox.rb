@@ -1,3 +1,5 @@
+require_relative './song_library'
+
 def jukebox(command)
   if command.downcase == "list"
     list_library
@@ -26,7 +28,7 @@ def parse_artist(command, lib)
   else
     lib.each do |artist, hash|
       if command.downcase == artist.to_s.gsub("_"," ").downcase
-        puts list_artist(artist, lib)
+        puts list_artist(artist, hash)
         parsed = true
         break
       end
@@ -40,10 +42,11 @@ def play_song(command, lib)
     hash.each do |album_name, albums_hash|
       albums_hash.each do |album, songs_hash|
         songs_hash.each do |songs|
-          songs.each do |song|
+          songs.last.each do |song|
             if song.downcase == command.downcase
-            puts "Now Playing: #{artist[command].strip}: #{album} - #{song}\n\n"
-            return true
+              puts "\nNow Playing: #{artist}: #{album} - #{song}\n\n"
+              return true
+            end
           end
         end
       end
@@ -60,11 +63,10 @@ def list_artist(artist, album_hash)
      artist_list += "\n#{album_name}:\n\t"
      artist_list += songs_hash[:songs].join("\n\t")
    end
-   artist_list
+   artist_list + "\n\n"
 end
 
 def not_found(command)
-  puts "I did not understand '#{command}'!\n\n"
+  puts "\nI did not understand '#{command}'!\n\n"
   true
-end
 end
